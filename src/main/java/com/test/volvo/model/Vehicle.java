@@ -31,7 +31,6 @@ public class Vehicle extends UserDateAudit {
 	private Chassis chassis;
 
 	@Enumerated(EnumType.STRING)
-    @NaturalId
     @Column(length = 60)
     private TypeVehicle type;
 	
